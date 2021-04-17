@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px
+}
+
+body{
+    margin: 0px;
+    font-family: 'Kalam', cursive;
+    color: black;
+}
+
+nav{
+    background-color:var(--primary) ;
+    text-align: center;
+}
+
+main{
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 1rem;
+}
+
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    display: block;
+    font-size: large;
+    font-family: inherit;  
+}
+
+button{
+    background-color: var(--primary);
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1rem 0px;
+    font-size: large;
+    font-family: inherit;
+}
+
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: scroll;
+    min-height: 10vh;
+    max-height: 20vh;
+    border: 1px solid black;
+}
+
+footer{
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+    /* margin-top: 3rem; */
+}
+
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+    padding:0rem 1rem ;
+}
